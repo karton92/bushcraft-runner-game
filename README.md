@@ -1,5 +1,4 @@
-<img src="/view.png" alt="Site view" width="70%">
-<h2>Learning Flashcards App</h2>
+<h2>Bushcraft Runner Game</h2>
 
 _Welcome to my profile!<br>
 This game give me a lot of fun! I love forest and bushcraft... and I'm bald. So maybe some fun game...? ;)
