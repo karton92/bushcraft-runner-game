@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/bushcraft-runner-game/static/css/main.d1184f77.css",
+    "main.js": "/bushcraft-runner-game/static/js/main.c986b9ae.js",
+    "static/media/bg-long2.jpg": "/bushcraft-runner-game/static/media/bg-long2.6af2b93c631fa3b82270.jpg",
+    "static/media/wood-log.png": "/bushcraft-runner-game/static/media/wood-log.00b226bf8795046c46d0.png",
+    "static/media/dead.png": "/bushcraft-runner-game/static/media/dead.dac1f607cb83e977d6e8.png",
+    "static/media/run3.png": "/bushcraft-runner-game/static/media/run3.fe40df155094d5442457.png",
+    "static/media/run1.png": "/bushcraft-runner-game/static/media/run1.cdb7a210a2db7c108db3.png",
+    "static/media/static.png": "/bushcraft-runner-game/static/media/static.f9f7e558edcf9d639bc2.png",
+    "static/media/run2.png": "/bushcraft-runner-game/static/media/run2.255f6192fa33608593de.png",
+    "static/media/run4.png": "/bushcraft-runner-game/static/media/run4.f7ff6734f576a7d6b34d.png",
+    "index.html": "/bushcraft-runner-game/index.html",
+    "main.d1184f77.css.map": "/bushcraft-runner-game/static/css/main.d1184f77.css.map",
+    "main.c986b9ae.js.map": "/bushcraft-runner-game/static/js/main.c986b9ae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d1184f77.css",
+    "static/js/main.c986b9ae.js"
+  ]
+}
