@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.wordl {
+  overflow: hidden;
+  position: relative;
+}
+
+.ground {
+  position: relative;
+  background-image: url("./assets/images/bg-long2.jpg");
+  background-repeat: repeat-x;
+  background-size: contain;
+  height: 100vh;
+  width: 4800px;
+}
+
+.ground-move {
+  animation: ground 5s infinite linear;
+}
+
+.hero {
+  background-image: url("./assets/images/bald/static.png");
+  height: 170px;
+  width: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 7vmax;
+  left: 8%;
+  z-index: 12;
+}
+
+.wood-log {
+  position: absolute;
+  right: 5%;
+  bottom: 7vmax;
+  height: 100px;
+  z-index: 2;
+}
+
+.log-move {
+  animation: wood 1.7s infinite linear;
+}
+
+// TEXT INFORMATIONS
+
+.score {
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 30px;
+  font-weight: 800;
+  z-index: 6;
+  margin: 15px;
+}
+
+.space-bar {
+  display: flex;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  right: 0;
+  font-size: 30px;
+  font-weight: 800;
+  z-index: 2;
+  margin: 15px;
+
+  .arrow {
+    font-size: 30px;
+    font-weight: 900;
+  }
+
+  span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 5px;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 0 10px;
+    margin: 5px;
+  }
+}
+
+.title {
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  font-size: 40px;
+  font-weight: 900;
+  z-index: 2;
+  text-transform: uppercase;
+}
+
+.start-screen {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  font-size: 50px;
+  font-weight: 600;
+  z-index: 2;
+  animation: scale-text 1.5s infinite linear;
+}
+
+/* /// MOVE  STATUS /// */
+
+.hide {
+  display: none;
+}
+
+.run {
+  animation: run 0.19s infinite linear;
+}
+
+.jump {
+  animation: jump 0.4s linear;
+}
+
+.dead {
+  background-image: url("./assets/images/bald/dead.png");
+  transition: 0.2s;
+  transform: rotate(-80deg);
+  bottom: 8%;
+}
+
+/* /// ALL ANIMATIONS /// */
+
+@keyframes wood {
+  0% {
+    right: 1%;
+  }
+  100% {
+    right: 100%;
+  }
+}
+
+@keyframes ground {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-1600px, 0, 0);
+  }
+}
+
+@keyframes jump {
+  0% {
+    bottom: 15%;
+  }
+  30% {
+    bottom: 30%;
+  }
+  70% {
+    bottom: 30%;
+  }
+  100% {
+    bottom: 15%;
+  }
+}
+
+@keyframes run {
+  0% {
+    background-image: url("./assets/images/bald/run1.png");
+  }
+  25% {
+    background-image: url("./assets/images/bald/run2.png");
+  }
+  50% {
+    background-image: url("./assets/images/bald/run3.png");
+  }
+  100% {
+    background-image: url("./assets/images/bald/run4.png");
+  }
+}
+@keyframes scale-text {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
