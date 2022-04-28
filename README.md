@@ -1,8 +1,9 @@
 <h2>Bushcraft Runner Game</h2>
 
 _Welcome to my profile!<br>
-This game give me a lot of fun! I love forest and bushcraft... and I'm bald. So maybe some fun game...? ;)
-Some code, training and it's good to do some fun stuff!
+This game give me a lot of fun!<br/>
+I love forest and bushcraft... and I'm bald. So maybe some fun game...? ;)<br/>
+Some code, training and it's good to do some fun stuff!<br/>
 Enjoy it!_<br>
 
 ### LIVE DEMO: <a href="https://karton92.github.io/bushcraft-runner-game/" target="_blank">https://karton92.github.io/bushcraft-runner-game/</a>
