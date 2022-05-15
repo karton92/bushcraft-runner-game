@@ -29,6 +29,5 @@ _Below is how install and setting up app._
 1. React<br>
 2. SCSS<br>
 3. Hooks<br>
-4. Material UI<br>
-5. Optimization Care<br>
+4. Optimization Care<br>
 
